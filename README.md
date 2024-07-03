@@ -8,7 +8,7 @@ Questo repository contiene il codice e i notebook per un'analisi approfondita de
 * Analisi dello stato degli ordini
 * Valutazione del guadagno mensile e per categoria
 * Identificazione dei fattori che influenzano il guadagno
-* Previsione del guadagno futuro e del numero di resi
+* Previsione del guadagno futuro 
 
 **Obiettivi**
 
@@ -18,7 +18,7 @@ Questo repository contiene il codice e i notebook per un'analisi approfondita de
 
 **Dati**
 
-I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon.
+I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon (link: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data/discussion?sort=hotness)
 
 **Metodologia**
 
