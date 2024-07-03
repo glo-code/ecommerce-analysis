@@ -18,7 +18,7 @@ Questo repository contiene il codice e i notebook per un'analisi approfondita de
 
 **Dati**
 
-I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguasrdante le vendite di Amazon.
+I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon.
 
 **Metodologia**
 
