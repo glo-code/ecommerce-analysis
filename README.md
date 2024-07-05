@@ -8,13 +8,7 @@ Questo repository contiene il codice e i notebook per un'analisi approfondita de
 * Analisi dello stato degli ordini
 * Valutazione del guadagno mensile e per categoria
 * Identificazione dei fattori che influenzano il guadagno
-* Previsione del guadagno futuro 
-
-**Obiettivi**
-
-* Comprendere meglio il comportamento dei clienti e le tendenze di vendita
-* Identificare le opportunità per aumentare il guadagno e la redditività
-* Sviluppare strategie di marketing e vendita più efficaci
+* Previsione dei futuri ordini cancellati, vestiti venduti e tipi di spedizione tramite Regressione Logistica.
 
 **Dati**
 
@@ -26,7 +20,7 @@ L'analisi è stata condotta utilizzando i seguenti passaggi:
 
 * **Pre-processing dei dati:** Pulizia e preparazione dei dati per l'analisi.
 * **Analisi esplorativa dei dati:** Descrizione delle caratteristiche dei dati e identificazione di modelli e tendenze.
-* **Modellazione:** Sviluppo di modelli statistici per prevedere il guadagno e identificare i fattori che lo influenzano.
+* **Modellazione:** Sviluppo di modelli statistici per prevedere i vari obiettivi.
 * **Visualizzazione dei dati:** Creazione di grafici e diagrammi per comunicare i risultati dell'analisi.
 
 **Risultati**
@@ -39,7 +33,7 @@ L'analisi ha rivelato diverse informazioni utili, tra cui:
 * La maggior parte degli ordini è stata spedita, mentre una piccola percentuale è stata annullata, resa o persa.
 * C'è una correlazione decrescente tra il guadagno mensile e il guadagno mensile dei kurta.
 * Gli ordini gratuiti hanno un impatto negativo sul guadagno, in particolare per i kurta e i set.
-* La quantità, lo stato degli ordini e le promozioni influenzano il guadagno.
+* La quantità, lo stato degli ordini non influenzano molto il guadagno mentre le promozioni si.
 
 **Conclusione**
 
