@@ -1,8 +1,8 @@
-## **Analisi approfondita dei dati di vendita**
+##Tool per analisi vendite e-commerce**
 
-**Introduzione**
+Questo repository contiene il codice e i notebook per un'analisi approfondita dei dati di vendita di un'azienda di abbigliamento.
 
-Questo repository contiene il codice e i notebook per un'analisi approfondita dei dati di vendita di un'azienda di abbigliamento. L'analisi include:
+L'analisi include:
 
 * Descrizione del comportamento d'acquisto dei clienti
 * Analisi dello stato degli ordini
@@ -14,14 +14,7 @@ Questo repository contiene il codice e i notebook per un'analisi approfondita de
 
 I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon (link: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data/discussion?sort=hotness)
 
-**Metodologia**
-
-L'analisi è stata condotta utilizzando i seguenti passaggi:
-
-* **Pre-processing dei dati:** Pulizia e preparazione dei dati per l'analisi.
-* **Analisi esplorativa dei dati:** Descrizione delle caratteristiche dei dati e identificazione di modelli e tendenze.
-* **Modellazione:** Sviluppo di modelli statistici per prevedere i vari obiettivi.
-* **Visualizzazione dei dati:** Creazione di grafici e diagrammi per comunicare i risultati dell'analisi.
+Sono stati effettuati l'analisi esplorativa (EDA), il data preprocessing e lo svoluppo di un modello di machine learning (Regressione Logistica).
 
 **Risultati**
 
@@ -37,14 +30,14 @@ L'analisi ha rivelato diverse informazioni utili, tra cui:
 
 **Conclusione**
 
-Questa analisi approfondita dei dati ha fornito informazioni preziose per comprendere il comportamento dei clienti, le tendenze di vendita e i fattori che influenzano il guadagno. Questi risultati possono essere utilizzati per prendere decisioni strategiche informate per migliorare le prestazioni aziendali e massimizzare i profitti.
+Questi risultati possono essere utilizzati per prendere decisioni strategiche informate per massimizzare i profitti, identificando le potenziali perdite di denaro negli ordini.
 
 **Come utilizzare questo repository**
 
 Questo repository può essere utilizzato per:
 
 * Eseguire l'analisi dei dati descritta in questo readme
-* Adattare il codice e i notebook per le proprie esigenze
+* Adattare il codice al proprio e-commerce
 
 **Prerequisiti**
 
@@ -67,6 +60,7 @@ Per utilizzare questo repository, è necessario disporre dei seguenti software:
 **Contributi**
 
 Si invitano i contributori a fornire suggerimenti, correzioni e nuove funzionalità a questo repository. Per ulteriori informazioni, consultare le linee guida per i contributi [URL non valido rimosso].
+Si può utilizzare questa analisi, dopo aver contattato il proprietario.
 
 **Licenza**
 
