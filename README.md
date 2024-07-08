@@ -1,4 +1,4 @@
-##Tool per analisi vendite e-commerce**
+**Tool per analisi vendite e-commerce**
 
 Questo repository contiene il codice e i notebook per un'analisi approfondita dei dati di vendita di un'azienda di abbigliamento.
 
