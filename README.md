@@ -8,7 +8,6 @@ L'analisi include:
 * Analisi dello stato degli ordini
 * Valutazione del guadagno mensile e per categoria
 * Identificazione dei fattori che influenzano il guadagno
-* Previsione dei futuri ordini cancellati, vestiti venduti e tipi di spedizione tramite Regressione Logistica.
 
 **Dati**
 
