@@ -14,7 +14,7 @@ L'analisi include:
 
 I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon (link: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data/discussion?sort=hotness)
 
-Sono stati effettuati l'analisi esplorativa (EDA), il data preprocessing e lo svoluppo di un modello di machine learning (Regressione Logistica).
+Sono stati effettuati l'analisi esplorativa (EDA) e il data preprocessing.
 
 **Risultati**
 
