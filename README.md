@@ -1,4 +1,4 @@
-Amazon India Sales: Data Auditing & Exploration
+**Amazon India Sales: Data Auditing & Exploration**
 
 Questo progetto nasce dalla curiosità di analizzare un dataset reale e complesso (oltre 120.000 transazioni) per capire come si muovono le vendite di un e-commerce in un mercato come quello indiano.
 
