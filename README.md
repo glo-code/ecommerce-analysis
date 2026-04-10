@@ -4,6 +4,10 @@ Questo progetto nasce dalla curiosità di analizzare un dataset reale e compless
 
 L'obiettivo non è stata solo la semplice visualizzazione, ma un vero e proprio lavoro di Data Auditing: capire dove i dati "mentono" e come pulirli per ottenere informazioni affidabili.
 
+**Dati**
+
+I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon (link: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data/discussion?sort=hotness)
+
 **Analisi**
 
 Il progetto si concentra su:
@@ -14,7 +18,7 @@ Il progetto si concentra su:
 
 - Business Insights: Ho studiato come le diverse categorie (Kurta, Set, Western Dress) interagiscono tra loro, notando ad esempio fenomeni di cannibalizzazione tra i prodotti più venduti.
 
-**Note tecniche e Sviluppi Futuri**
+**Librerie e Sviluppi Futuri**
 
 Tech Stack: Python (Pandas, NumPy), Seaborn, Matplotlib.
 
