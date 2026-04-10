@@ -1,67 +1,23 @@
-**Tool per analisi vendite e-commerce**
+Amazon India Sales: Data Auditing & Exploration
 
-Questo repository contiene il codice e i notebook per un'analisi approfondita dei dati di vendita di un'azienda di abbigliamento.
+Questo progetto nasce dalla curiosità di analizzare un dataset reale e complesso (oltre 120.000 transazioni) per capire come si muovono le vendite di un e-commerce in un mercato come quello indiano.
 
-L'analisi include:
+L'obiettivo non è stata solo la semplice visualizzazione, ma un vero e proprio lavoro di Data Auditing: capire dove i dati "mentono" e come pulirli per ottenere informazioni affidabili.
 
-* Descrizione del comportamento d'acquisto dei clienti
-* Analisi dello stato degli ordini
-* Valutazione del guadagno mensile e per categoria
-* Identificazione dei fattori che influenzano il guadagno
+**Analisi**
 
-**Dati**
+Il progetto si concentra su:
 
-I dati utilizzati per questa analisi provengono da un file CSV contenente informazioni sugli ordini di vendita, preso da Kaggle e chiamato Ecommerce Sales Dataset, riguardante le vendite di Amazon (link: https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data/discussion?sort=hotness)
+- Investigazione degli "Ordini Nulli": Ho notato la presenza di ordini con importo 0.0 e ho cercato di capire se si trattasse di errori di sistema, resi o promozioni particolari (Amazon Promotions vs VPC Coupon).
 
-E' stata effettuata l'analisi esplorativa (EDA).
+- Gestione degli Outlier: Per evitare che i "prezzi anomali" sballassero le medie del fatturato, ho applicato tecniche statistiche come il metodo Interquartile (IQR) e lo Z-Score (IQR e Z-Score per il confronto della distribuzione prima e dopo il cleaning).
 
-**Risultati**
+- Business Insights: Ho studiato come le diverse categorie (Kurta, Set, Western Dress) interagiscono tra loro, notando ad esempio fenomeni di cannibalizzazione tra i prodotti più venduti.
 
-L'analisi ha rivelato diverse informazioni utili, tra cui:
+**Note tecniche e Sviluppi Futuri**
 
-* La maggior parte dei clienti acquista un solo capo di abbigliamento.
-* I mesi con il maggior numero di ordini sono aprile, maggio e giugno.
-* La categoria più popolare è il Set, seguita dal Kurta.
-* La maggior parte degli ordini è stata spedita, mentre una piccola percentuale è stata annullata, resa o persa.
-* C'è una correlazione decrescente tra il guadagno mensile e il guadagno mensile dei kurta.
-* Gli ordini gratuiti hanno un impatto negativo sul guadagno, in particolare per i kurta e i set.
-* La quantità, lo stato degli ordini non influenzano molto il guadagno mentre le promozioni si.
+Tech Stack: Python (Pandas, NumPy), Seaborn, Matplotlib.
 
-**Conclusione**
+Limiti attuali: Alcune visualizzazioni le sistemerò.
 
-Questi risultati possono essere utilizzati per prendere decisioni strategiche informate per massimizzare i profitti, identificando le potenziali perdite di denaro negli ordini.
-
-**Come utilizzare questo repository**
-
-Questo repository può essere utilizzato per:
-
-* Eseguire l'analisi dei dati descritta in questo readme
-* Adattare il codice al proprio e-commerce
-
-**Prerequisiti**
-
-Per utilizzare questo repository, è necessario disporre dei seguenti software:
-
-* Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Scikit-learn
-* Seaborn
-
-**Istruzioni**
-
-1. Clonare questo repository nel proprio computer.
-2. Aprire Jupyter Notebook e navigare nella directory del repository.
-3. Aprire il notebook "Analisi_approfondita_dati.ipynb".
-4. Eseguire il codice del notebook.
-
-**Contributi**
-
-Si invitano i contributori a fornire suggerimenti, correzioni e nuove funzionalità a questo repository. Per ulteriori informazioni, consultare le linee guida per i contributi [URL non valido rimosso].
-Si può utilizzare questa analisi, dopo aver contattato il proprietario.
-
-**Licenza**
-
-Questo repository è rilasciato con licenza [MIT](https://choosealicense.com/licenses/mit/).
-
+Next Step: Questo lavoro è la base esplorativa per un futuro modello predittivo basato su regressione lineare per stimare le vendite dei mesi successivi.
